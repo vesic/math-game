@@ -39,9 +39,9 @@ class App extends Component {
     ) : (
       <div className="App">
         <AppBar title="Math Game" showMenuIconButton={false} />
-        <h2 style={{ marginBottom: -5 }}>*Operations*</h2>
+        <h2 style={{ marginBottom: -5 }}>* Operations *</h2>
         <Operation toggleOp={this.toggleOp} ops={this.state.ops} />
-        <h2 style={{ marginBottom: -5 }}>*Difficulty*</h2>
+        <h2 style={{ marginBottom: -5 }}>* Difficulty *</h2>
         <Difficulty setDifficulty={this.setDifficulty} diff={this.state.diff} />
         <Start togglePlay={this.togglePlay} text="Start" />
       </div>

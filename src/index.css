@@ -9,3 +9,9 @@ body {
   /* background: #333;
   color: #fff; */
 }
+
+.hidden {
+  /* visibility: hidden */
+  opacity: 1;
+  transition: opacity 1s;
+}

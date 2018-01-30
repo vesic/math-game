@@ -1,7 +1,7 @@
 ## Math Game
 
 ### Preview 
-[https://math-game-hxvyqkcrim.now.sh/](https://math-game-hxvyqkcrim.now.sh/)
+[https://math-game-uftsqlcwxr.now.sh/](https://math-game-uftsqlcwxr.now.sh/)
 
 ### Installing
 ```

@@ -49,7 +49,7 @@ class Game extends Component {
   setRandomNums = () => {
     const nums = Array(5)
       .fill()
-      .map(n => getRandomInt(Math.pow(10, this.props.diff + 0.2)));
+      .map(n => getRandomInt(Math.pow(10, this.props.diff + 0.3)));
     this.setState({ nums });
   };
 
@@ -81,7 +81,7 @@ class Game extends Component {
 
   setLevel = () => {
     const { sublevel } = this.state;
-    if (sublevel < 3) {
+    if (sublevel < 5) {
       this.setState(prev => ({
         sublevel: prev.sublevel + 1
       }));
@@ -135,7 +135,7 @@ class Game extends Component {
         <Snackbar
           open={open}
           message={`Level ${level}`}
-          autoHideDuration={1000}
+          autoHideDuration={200}
           onRequestClose={this.handleRequestClose}
         />
       </div>

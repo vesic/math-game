@@ -15,21 +15,21 @@ const Difficulty = ({ setDifficulty, diff }) => (
     </Paper>
     <Paper
       style={{ ...style.wrapper,
-        backgroundColor: diff === 2 ? "#0277BD" : "",
-        color: diff === 2 ? "#fff": "" 
+        backgroundColor: diff === 1.5 ? "#0277BD" : "",
+        color: diff === 1.5 ? "#fff": "" 
       }}
       zDepth={2}
-      onClick={() => setDifficulty(2)}
+      onClick={() => setDifficulty(1.5)}
     >
       <div style={style.text}>Medium</div>
     </Paper>
     <Paper
       style={{ ...style.wrapper,
-        backgroundColor: diff === 3 ? "#0277BD" : "",
+        backgroundColor: diff === 2 ? "#0277BD" : "",
         color: diff === 3 ? "#fff": "" 
       }}
       zDepth={2}
-      onClick={() => setDifficulty(3)}
+      onClick={() => setDifficulty(2)}
     >
       <div style={style.text}>Hard</div>
     </Paper>
